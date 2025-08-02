@@ -73,3 +73,26 @@ Examples:
    ```bash
    git clone https://github.com/ziziiprogramming/zomato-data-analysis.git
    cd zomato-data-analysis
+
+2. Install Dependencies
+Create a virtual environment (optional but recommended):
+python -m venv venv
+source venv/bin/activate
+
+3. Then install requirements:
+pip install -r requirements.txt
+
+3. Run the Notebook:
+jupyter notebook zomato_analysis.ipynb
+
+OR 
+If you're using VS Code:
+
+1. Open the project folder.
+2. Open zomato_analysis.ipynb.
+3. Run all cells from the toolbar.
+
+Dataset:
+- Make sure the zomato.csv dataset is in the project folder.
+
+- If not, download it from Kaggle and place it in the same directory.
